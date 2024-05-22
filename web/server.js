@@ -27,7 +27,7 @@ app.post('/api/messages', (req, res) => {
 // Function to handle the bot response (replace with your actual logic)
 async function getBotResponse(text) {
   // This is a placeholder for your actual fetch call to the bot service
-  const response = await fetch(`http://localhost:3978/api/messages`, {
+  const response = await fetch(`https://nightmes-bot.azurewebsites.net/api/messages`, {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json'
