@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <title>Suchergebnisse</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <header class="header">
+        <img src="/logo.png" alt="UBS Logo" class="logo">
+    </header>
+    <div class="search-results">
+        <p><%= response %></p>
+    </div>
+</body>
+</html>
