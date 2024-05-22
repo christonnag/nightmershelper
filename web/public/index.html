@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Nightmers</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="/chatbot.js"></script>
+</head>
+<body>
+    <header>
+        <img src="ubs-logo.png" alt="UBS Logo" class="logo">
+    </header>
+    <div class="container">
+        <h1>Nightmers</h1>
+        <div id="search-box" class="box">
+            <input type="text" id="query" placeholder="Search...">
+            <button onclick="startChat()">Submit</button>
+        </div>
+        <div id="chat-box" class="box" style="display:none;">
+            <div id="messages" class="messages"></div>
+            <input type="text" id="message" placeholder="Type a message...">
+            <button onclick="sendMessage()">Send</button>
+        </div>
+    </div>
+</body>
+</html>
