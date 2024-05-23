@@ -4,7 +4,7 @@
   "description": "Eine Webanwendung mit Suchleiste, die als Chatbot funktioniert",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node web/server.js"
   },
   "dependencies": {
     "express": "^4.17.1",
